@@ -15,6 +15,7 @@ build/
 # Jupyter / experiment outputs
 .ipynb_checkpoints/
 *.log
+outputs/
 
 # IDE
 .idea/

@@ -1,0 +1,11 @@
+dp:
+  gamma: 0.95
+
+mc:
+  episodes: 5000
+  gamma: 0.95
+  epsilon: 1.0
+  epsilon_min: 0.05
+  seed: 0
+  max_steps: 200
+  output: outputs/mc_curves.png
