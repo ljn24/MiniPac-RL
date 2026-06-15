@@ -1,5 +1,6 @@
 dp:
   gamma: 0.95
+  output: outputs/dp_result.txt
 
 mc:
   episodes: 5000
@@ -9,3 +10,14 @@ mc:
   seed: 0
   max_steps: 200
   output: outputs/mc_curves.png
+  metrics_output: outputs/mc_metrics.csv
+  summary_output: outputs/mc_summary.json
+
+video:
+  output: outputs/learning_process.mp4
+  fps: 12
+  hold_frames: 3
+  pause_frames: 6
+  max_steps_per_episode: 40
+  asset_size: 80
+  checkpoints: [1, 5, 10, 20, 30, 50, 75, 100, 150, 200, 300, 500, 750, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500]
